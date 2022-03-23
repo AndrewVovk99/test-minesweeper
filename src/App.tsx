@@ -9,14 +9,14 @@ import {
 import {
   createGame,
   initialiazeGame,
-} from '../game/gameReducers';
-import { RootState } from '../store/store';
-import { GameTable } from '../game/gameTable';
+} from './game/gameReducers';
+import { RootState } from './store/store';
+import { GameTable } from './game/gameTable';
 import {
   useAppStyles,
   Item,
   lightTheme,
-} from './appStyles';
+} from './AppStyles';
 
 function App() {
   const dispatch = useDispatch();
